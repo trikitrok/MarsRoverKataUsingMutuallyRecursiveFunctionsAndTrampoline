@@ -1,0 +1,3 @@
+(first [])
+(if-let [koko (first [])] koko "no")
+(if-let [koko (first [1])] koko "no")
