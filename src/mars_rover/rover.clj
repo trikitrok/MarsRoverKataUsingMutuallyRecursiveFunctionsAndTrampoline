@@ -124,4 +124,6 @@
            :east facing-east 
            :west facing-west))]
       
-      (trampoline (initial-state-fn direction) initial-rover commands))))
+      (trampoline (initial-state-fn direction) 
+                  initial-rover 
+                  commands))))
